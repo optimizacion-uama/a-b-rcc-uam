@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "prueba1",
+      "setup": "g++ codigo.cpp -o codigo.exe",
+      "run": "./codigo.exe",
+      "input": "1 2",
+      "output": "3",
+      "comparison": "exact",
+      "timeout": 1,
+      "points": null
+    }
+  ]
+}
